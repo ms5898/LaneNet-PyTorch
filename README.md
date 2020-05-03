@@ -11,7 +11,7 @@ segmentation problem.
 ![LaneNet Result](img/final_result.png)
 
 ___
-#### Requirement
+### Requirement
 * Python 3.7
 * [PyTorch 1.4.0](https://pytorch.org)
 * [torchvision](https://pytorch.org/docs/stable/torchvision/index.html#torchvision)
@@ -19,7 +19,7 @@ ___
 * [NumPy 1.18.2](https://numpy.org)
 
 ___
-#### Download and prepare the dataset
+### Download and prepare the dataset
 **Download:**
 
 You should download the Lane Detection Challenge dataset from [TuSimple](https://github.com/TuSimple/tusimple-benchmark/issues/3)
@@ -84,11 +84,11 @@ ECBM6040-Project
 ```
 ***For the data prepare you can reference [LaneNet TensorFlow project](https://github.com/MaybeShewill-CV/lanenet-lane-detection) but there is some different.***
 ___
-#### Training the E-Net base LaneNet
+### Training the E-Net base LaneNet
 1. Dataset for training: You can use ``ECBM6040-Project/Notebook-experiment/Dataset Show.ipynb`` to see the dataset for training
 2. Use the ``ECBM6040-Project/Train.ipynb`` to train the LaneNet, the model will save in ``ECBM6040-Project/TUSIMPLE/Lanenet_output``
 ___
-#### Do evaluation on the test dataset
+### Do evaluation on the test dataset
 The evaluation base on TuSimple challenge evaluation method you can get more information from [TuSimple exampe](https://github.com/TuSimple/tusimple-benchmark/blob/master/example/lane_demo.ipynb)
 1. You can use the jupyter notebook ``ECBM6040-Project/Notebook-experiment/Evaluation of Lanenet.ipynb`` to see the evaluation result
 2. The final evaluation result is like that:
@@ -114,13 +114,13 @@ The evaluation base on TuSimple challenge evaluation method you can get more inf
 | Clustering    | 4.6      |
 
 ___
-#### Generate some GIF to show the result
+### Generate some GIF to show the result
 
 Use the ``ECBM6040-Project/Notebook-experiment/Generate Video and show the result.ipynb``, you can generate some gif to show the result on some clips in ``ECBM6040-Project/TUSIMPLE/test_clips`` and output gif will find in ``ECBM6040-Project/TUSIMPLE/gif_output``
 
 ![gif show](img/result_show.gif)
 ___
-#### Reference
+### Reference
 [1] Neven, D., De Brabandere, B., Georgoulis, S., Proesmans, M. and Van Gool, L., 2018, June. Towards end-to-end lane 
 detection: an instance segmentation approach. In 2018 IEEE intelligent vehicles symposium (IV) (pp. 286-291). IEEE. 
 https://arxiv.org/abs/1802.05591
