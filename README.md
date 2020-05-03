@@ -87,6 +87,7 @@ ___
 The evaluation base on TuSimple challenge evaluation method you can get more information from [TuSimple exampe](https://github.com/TuSimple/tusimple-benchmark/blob/master/example/lane_demo.ipynb)
 ___
 #### Generate some GIF to show the result
+![gif show](img/result_show.gif)
 ___
 #### Reference
 [1] Neven, D., De Brabandere, B., Georgoulis, S., Proesmans, M. and Van Gool, L., 2018, June. Towards end-to-end lane 
