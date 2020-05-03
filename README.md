@@ -6,6 +6,10 @@ segmentation problem.
 
 **Image from the original paper which shows the LaneNet architecture:**
 ![LaneNet architecture](img/laneNet_arch.png)
+
+**Image of the processing steps:**
+![LaneNet Result](img/final_result.png)
+
 ___
 #### Requirement
 * Python 3.7
@@ -75,7 +79,8 @@ ECBM6040-Project
 .   |   |--test_tasks_0627.json
 .   |   |--test_label.json
 .   |   |--readme.md
-.
+.   |
+.   |--test_clips
 ```
 ***For the data prepare you can reference [LaneNet TensorFlow project](https://github.com/MaybeShewill-CV/lanenet-lane-detection) but there is some different.***
 ___
@@ -85,8 +90,34 @@ ___
 ___
 #### Do evaluation on the test dataset
 The evaluation base on TuSimple challenge evaluation method you can get more information from [TuSimple exampe](https://github.com/TuSimple/tusimple-benchmark/blob/master/example/lane_demo.ipynb)
+1. You can use the jupyter notebook ``ECBM6040-Project/Notebook-experiment/Evaluation of Lanenet.ipynb`` to see the evaluation result
+2. The final evaluation result is like that:
+
+|               | Accuracy |    FP   |    FN   |
+|:--------------|:---------|:--------|:--------|
+| Original Paper| 96.4%    | 7.80%   |  2.44%  |  
+| My result     | 94.3%    | 15.07%  |  7.06%  |
+3. The speed result is like that:
+
+**Original Paper** : fps is 62.5 ``(one NVIDIA 1080 TI)``
+
+|               | time (ms)|
+|:--------------|:---------|
+| Forward pass  | 12       |
+| Clustering    | 4.6      |
+
+**My Result** : fps is 62.5 ``(Google Cloud Platform and one  NVIDIA Tesla P100 GPU)``
+
+|               | time (ms)|
+|:--------------|:---------|
+| Forward pass  | 12       |
+| Clustering    | 4.6      |
+
 ___
 #### Generate some GIF to show the result
+
+Use the ``ECBM6040-Project/Notebook-experiment/Generate Video and show the result.ipynb``, you can generate some gif to show the result on some clips in ``ECBM6040-Project/TUSIMPLE/test_clips`` and output gif will find in ``ECBM6040-Project/TUSIMPLE/gif_output``
+
 ![gif show](img/result_show.gif)
 ___
 #### Reference
