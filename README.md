@@ -50,23 +50,23 @@ ECBM6040-Project
 .   |---Lanenet_output
 .   |   |--lanenet_epoch_39_batch_8.model
 .   |
-.   |--training
+.   |---training
 .   |   |--lgt_binary_image
 .   |   |--gt_image
 .   |   |--gt_instance_image
 .   |
-.   |--txt_for_local
+.   |---txt_for_local
 .   |   |--test.txt
 .   |   |--train.txt
 .   |   |--val.txt
 .   |
-.   |--test_set
+.   |---test_set
 .   |   |--clips
 .   |   |--test_tasks_0627.json
 .   |   |--test_label.json
 .   |   |--readme.md
 .   |
-.   |--test_clips
+.   |---test_clips
 ```
 
 ***For the data prepare you can reference [LaneNet TensorFlow project](https://github.com/MaybeShewill-CV/lanenet-lane-detection) but there is some different.***
