@@ -37,27 +37,13 @@ for training and testing.
 1. Process the ``train_set`` split into ground truth image, binary ground truth and instance ground truth, you should run
 
 ```
-python utils/generate_tusimple_dataset.py --src_dir (your train_set folder place)
-for me this step is: python utils/generate_tusimple_dataset.py --src_dir /Users/smiffy/Documents/GitHub/ECBM6040-Project/TUSIMPLE/train_set
+python utils/process_training_dataset.py --src_dir (your train_set folder place)
+for me this step is: python utils/process_training_dataset.py --src_dir /Users/smiffy/Documents/GitHub/ECBM6040-Project/TUSIMPLE/train_set
 ```
-2. You should see some folder like that in your ``train_set``
-```
-train_set
-|---clips
-|---label_data_0313.json
-|---label_data_0531.json
-|---label_data_0601.json
-|---readme.md
-|---training
-    |---gt_binary_image
-    |---gt_image
-    |---gt_instance_image
-    |---label_data_0313.json
-    |---label_data_0531.json
-    |---label_data_0601.json
-    |---train.txt
-```
-3. Split ``train.txt`` into ``train.txt``, ``val.txt`` and ``test.txt`` put them into ``ECBM6040-Project/TUSIMPLE/txt_for_local``and re-organize folder location like that:
+
+2. Then you can delete the folder ``ECBM6040-Project/TUSIMPLE/train_set`` and json files in ``ECBM6040-Project/TUSIMPLE/training``
+
+3. You should see some folder like that in your ``train_set``
 ```
 ECBM6040-Project
 |---TUSIMPLE
@@ -82,6 +68,7 @@ ECBM6040-Project
 .   |
 .   |--test_clips
 ```
+
 ***For the data prepare you can reference [LaneNet TensorFlow project](https://github.com/MaybeShewill-CV/lanenet-lane-detection) but there is some different.***
 ___
 ### Training the E-Net base LaneNet
@@ -96,7 +83,7 @@ The evaluation base on TuSimple challenge evaluation method you can get more inf
 |               | Accuracy |    FP   |    FN   |
 |:--------------|:---------|:--------|:--------|
 | Original Paper| 96.4%    | 7.80%   |  2.44%  |  
-| My result     | 94.3%    | 15.07%  |  7.06%  |
+| My result     | 94.3%    | 14.70%  |  6.95%  |
 3. The speed result is like that:
 
 **Original Paper** : fps is 62.5 ``(one NVIDIA 1080 TI)``
@@ -106,12 +93,12 @@ The evaluation base on TuSimple challenge evaluation method you can get more inf
 | Forward pass  | 12       |
 | Clustering    | 4.6      |
 
-**My Result** : fps is 62.5 ``(Google Cloud Platform and one  NVIDIA Tesla P100 GPU)``
+**My Result** : fps is 20(forward), 1.6(clustering) ``(Google Cloud Platform and one  NVIDIA Tesla P100 GPU and clustering use CPU)``
 
 |               | time (ms)|
 |:--------------|:---------|
-| Forward pass  | 12       |
-| Clustering    | 4.6      |
+| Forward pass  | 50       |
+| Clustering    | 619      |
 
 ___
 ### Generate some GIF to show the result
