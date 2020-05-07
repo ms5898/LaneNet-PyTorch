@@ -46,8 +46,8 @@ for training and testing.
 1. Process the ``train_set`` split into ground truth image, binary ground truth and instance ground truth, you should run
 
 ```
-python utils/process_training_dataset.py --src_dir (your train_set folder place)
-for me this step is: python utils/process_training_dataset.py --src_dir /Users/smiffy/Documents/GitHub/ECBM6040-Project/TUSIMPLE/train_set
+python utils/process_training_dataset_2.py --src_dir (your train_set folder place)
+for me this step is: python utils/process_training_dataset_2.py --src_dir /Users/smiffy/Documents/GitHub/ECBM6040-Project/TUSIMPLE/train_set
 ```
 
 2. Then you can delete the folder ``ECBM6040-Project/TUSIMPLE/train_set`` and json files in ``ECBM6040-Project/TUSIMPLE/training``

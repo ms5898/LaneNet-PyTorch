@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="151aa955-af24-42e8-bf3f-650ff4a572d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/process_training_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook-experiment/.ipynb_checkpoints/Evaluation of Lanenet-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook-experiment/.ipynb_checkpoints/Evaluation of Lanenet-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook-experiment/Evaluation of Lanenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook-experiment/Evaluation of Lanenet.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/process_training_dataset_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/process_training_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/process_training_dataset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +15,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/process_training_dataset.py">
+        <entry file="file://$PROJECT_DIR$/utils/process_training_dataset_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/dataset_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lanenet/model2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lanenet/cluster_loss3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-655">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/evaluation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-179">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,6 +89,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/utils/process_training_dataset.py" />
+        <option value="$PROJECT_DIR$/utils/process_training_dataset_2.py" />
       </list>
     </option>
   </component>
@@ -56,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,13 +113,32 @@
             <path>
               <item name="ECBM6040-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="ECBM6040-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECBM6040-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECBM6040-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Lanenet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECBM6040-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECBM6040-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Notebook-experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECBM6040-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECBM6040-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TUSIMPLE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECBM6040-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECBM6040-Project" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,17 +182,18 @@
       <workItem from="1588478967686" duration="237000" />
       <workItem from="1588527599611" duration="21000" />
       <workItem from="1588603423430" duration="2741000" />
+      <workItem from="1588875898864" duration="7669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7586000" />
+    <option name="totallyTimeSpent" value="15255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16240682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -140,7 +207,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32970297" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -165,20 +232,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/generate_tusimple_dataset.py">
+    <entry file="file://$PROJECT_DIR$/utils/generate_tusimple_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/utils/evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="-179">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lanenet/cluster_loss3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lanenet/model2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/dataset_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/process_training_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="846">
+          <caret line="135" selection-start-line="135" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/process_training_dataset_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
